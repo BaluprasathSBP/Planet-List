@@ -12,11 +12,13 @@ namespace VITSAList
             InitializeComponent();
 
             MainPage = new PlanetPage();
+           
         }
 
         protected override void OnStart()
         {
             // Handle when your app starts
+            // This is empty
         }
 
         protected override void OnSleep()
